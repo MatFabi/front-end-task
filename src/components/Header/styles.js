@@ -16,3 +16,16 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
 `;
+
+export const NavBar = styled.div`
+  display:flex;
+  align-items: center;
+`
+export const NavBarLink = styled.a`
+  text-decoration: none;
+  font-size:${({ theme }) => theme.font.size.md};
+  font-weight: ${({ theme }) => theme.font.weight.bold};
+  color: ${({ theme }) => theme.color.black};
+  cursor:pointer;
+  padding: 0.75rem;
+`
