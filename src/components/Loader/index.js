@@ -1,9 +1,10 @@
 import React from "react";
 
-import { BouncingCircle, LoaderBG } from "./styles";
+import { BouncingCircle } from "./styles";
+import { ModalLikeBg } from "components/PageSection";
 
 export const Loader = () => (
-  <LoaderBG>
+  <ModalLikeBg>
     <BouncingCircle />
-  </LoaderBG>
+  </ModalLikeBg>
 );

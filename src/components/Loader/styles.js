@@ -1,4 +1,4 @@
-import styled, {keyframes} from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const scaleout = keyframes`
 0% { 
@@ -9,22 +9,12 @@ const scaleout = keyframes`
     transform: scale(1.0);
     opacity: 0;
   }
-`
-export const LoaderBG = styled.div`
-// display:flex;
-position:absolute;
-width:100%;
-height:100%;
-background:rgba(0, 0, 0, 0.1);
 `;
-
 export const BouncingCircle = styled.div`
-width: 40px;
-height: 40px;
-margin: 100px auto;
-background-color: #333;
-border-radius: 100%; 
-animation: ${scaleout} 1.0s infinite ease-in-out;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 6.25rem 0;
+  background-color: ${({ theme }) => theme.color.veryDarkGray};
+  border-radius: 100%;
+  animation: ${scaleout} 1s infinite ease-in-out;
 `;
-
-

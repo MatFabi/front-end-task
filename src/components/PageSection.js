@@ -71,3 +71,12 @@ export const Wrapper = styled.div`
     background-color: ${({ theme }) => theme.color.linkWater};
   }
 `;
+
+export const ModalLikeBg = styled.div`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: ${({ theme }) => theme.color.blackLowOpacity};
+`;

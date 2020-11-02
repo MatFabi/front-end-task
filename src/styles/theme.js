@@ -4,7 +4,9 @@ export const theme = {
     primary: "#0066ff",
     linkWater: "#f8fafd",
     shuttleGray: "#5f6369",
-    white: "#ffffff"
+    white: "#ffffff",
+    blackLowOpacity: "rgba(0, 0, 0, 0.1)",
+    veryDarkGray: "#333333",
   },
   font: {
     size: {
@@ -17,15 +19,15 @@ export const theme = {
       xl: "1.953rem",
       xxl: "2.441rem",
       xxxl: "3.052rem",
-      xxxxl: "3.8rem"
+      xxxxl: "3.8rem",
     },
     weight: {
       light: 300,
       normal: 400,
-      bold: 700
-    }
+      bold: 700,
+    },
   },
   size: {
-    contentWidth: "48rem"
-  }
+    contentWidth: "48rem",
+  },
 };
